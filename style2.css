@@ -1,0 +1,98 @@
+/* =====================================
+   NAMA : GALATIA SIREGAR
+   NIM  : 202432064
+===================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2f4358;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+/* Title */
+header h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 18px;
+}
+
+/* Navbar */
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 12px;
+    padding: 10px 16px;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+/* Hover */
+nav a:hover {
+    background-color: #3498db;
+}
+
+/* Active */
+nav a.active {
+    background-color: #3498db;
+}
+
+/* Main */
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+/* Heading */
+main h2 {
+    margin-bottom: 25px;
+    font-size: 2rem;
+    color: #111;
+}
+
+/* Table */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Table Head */
+.styled-table thead {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Cell */
+.styled-table th,
+.styled-table td {
+    padding: 16px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Zebra */
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover */
+.styled-table tbody tr:hover {
+    background-color: #eef6fc;
+}
